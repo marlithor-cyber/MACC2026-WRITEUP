@@ -4,6 +4,8 @@
 
 Presented by Team CyberDune Club and EST Guelmim, Ibn Zohr University
 
+![India Lab Solved](india.png)
+
 ## Executive Summary
 
 This lab chained together four weaknesses across two internal hosts:
