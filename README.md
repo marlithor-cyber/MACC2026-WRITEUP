@@ -18,5 +18,6 @@ This repository contains professional writeups prepared for the MACC 2026 Nation
 - [`germany/answer.txt`](germany/answer.txt): validated Germany lab answers
 - [`australia/README.md`](australia/README.md): full Australia lab writeup
 - [`australia/australia.png`](australia/australia.png): Australia lab screenshot
+- [`mexico/README.md`](mexico/README.md): full Mexico lab writeup
 
 Additional final-phase writeups can be added later using the same folder-per-challenge structure.
